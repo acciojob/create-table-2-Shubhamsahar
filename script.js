@@ -1,7 +1,6 @@
 function createTable() {
     //Write your code here
-  function createTable() {
-    const rows = prompt("Input number of rows");
+  const rows = prompt("Input number of rows");
     const columns = prompt("Input number of columns");
 
     if (rows === null || columns === null) return;
